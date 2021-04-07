@@ -1,9 +1,7 @@
 import Link from 'next/link'
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField'
-import { MainContent } from '../../components/MainContent';
 import { styled } from '@material-ui/core/styles';
-import { Layout } from '../../components/Layout';
 import { QuizContent } from '../../components/QuizContent';
 
 const StyledTextField = styled(TextField)({
