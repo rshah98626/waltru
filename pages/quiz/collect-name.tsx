@@ -12,7 +12,7 @@ const StyledButton = styled(Button)({
   margin: '0.5rem',
 })
 
-export default function CollectName() {
+export default function CollectName(): JSX.Element {
   return (
     <QuizContent>
       <h2>What`&apos;`s your name?</h2>

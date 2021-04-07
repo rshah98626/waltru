@@ -1,6 +1,6 @@
 import { QuizContent } from '../../components/QuizContent'
 
-export default function CollectName() {
+export default function CollectName(): JSX.Element {
   return (
     <QuizContent>
       <h2>Causes</h2>
