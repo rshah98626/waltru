@@ -2,11 +2,12 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import { VercelTemplateFooter } from '../components/VercelTemplateFooter'
 import { Layout } from '../components/Layout'
+import { MainContent } from '../components/MainContent'
 
 export default function Home() {
   return (
     <Layout>
-      <main className={styles.main}>
+      <MainContent>
         <h1 className={styles.title}>
           Altru
         </h1>
@@ -16,8 +17,7 @@ export default function Home() {
             <a>our quiz!</a>
           </Link>
         </h1>
-      </main>
-
+      </MainContent>
       <VercelTemplateFooter />
     </Layout>
   )
