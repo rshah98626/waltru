@@ -1,4 +1,4 @@
-import { QuizContent } from "../../components/QuizContent";
+import { QuizContent } from '../../components/QuizContent'
 
 export default function CollectName() {
   return (
