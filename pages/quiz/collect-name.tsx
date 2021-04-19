@@ -15,7 +15,7 @@ const StyledButton = styled(Button)({
 export default function CollectName(): JSX.Element {
   return (
     <QuizContent>
-      <h2>What`&apos;`s your name?</h2>
+      <h2>What&apos;s your name?</h2>
       <span>
         <StyledTextField id="firstName" label="First Name" variant="outlined" />
         <StyledTextField id="lastName" label="Last Name" variant="outlined" />
